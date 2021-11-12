@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import "./App.css";
+import React, { useState, useEffect } from "react";
+import "./styles/App.css";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
@@ -56,19 +56,25 @@ const App = () => {
     checkIfWalletIsConnected();
   }, []);
 
+  const wave = () => {
+    console.log("wave");
+  };
+
   return (
     <div className="mainContainer">
       <div className="dataContainer">
         <div className="header">👋 Hey there!</div>
-        <button className="waveButton" onClick={wave}>
+        <button className="waveButton" onClick={() => wave()}>
           Wave at Me
         </button>
+        {!currentAccount ? (
+          <button className="waveButton" onClick={connectWallet}>
+            Connect Wallet
+          </button>
+        ) : (
+          <div className="bio">Connected {currentAccount}</div>
+        )}
       </div>
-      {!currentAccount && (
-        <button className="waveButton" onClick={connectWallet}>
-          Connect Wallet
-        </button>
-      )}
     </div>
   );
 };
