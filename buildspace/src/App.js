@@ -12,7 +12,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [waveMessage, setWaveMessage] = useState("");
 
-  const contractAddress = "0x26bDdA27D762b593715650878473d8f90A41f62f";
+  const contractAddress = "0xCE785ECF0B54aeDd37F2F1EC99b546B4a2259f26";
   const contractABI = ABI.abi;
 
   const checkIfWalletIsConnected = async () => {
@@ -80,7 +80,6 @@ const App = () => {
       const wavePortalContract = await getWavePortalContract();
       const count = await wavePortalContract.getTotalWaves();
       const waves = await wavePortalContract.getAllWaves();
-      console.log(count, wavePortalContract, waves);
       setWaveCount(count.toNumber());
       let wavesCleaned = [];
       waves.forEach((wave) => {
@@ -109,7 +108,6 @@ const App = () => {
       const wavePortalContract = await getWavePortalContract();
 
       let count = await wavePortalContract.getTotalWaves();
-      console.log("count", count);
       setWaveCount(count.toNumber());
       console.log("Retrieved total wave count...", count.toNumber());
       const waveTxn = await wavePortalContract.wave(waveMessage);
@@ -123,7 +121,7 @@ const App = () => {
       count = await wavePortalContract.getTotalWaves();
       console.log("Retrieved total wave count...", count.toNumber());
       setWaveCount(count.toNumber());
-      allWaves = await wavePortalContract.getAllWaves();
+      const allWaves = await wavePortalContract.getAllWaves();
       setAllWaves(allWaves)
     } catch (error) {
       console.log(error);
