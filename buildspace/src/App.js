@@ -12,7 +12,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [waveMessage, setWaveMessage] = useState("");
 
-  const contractAddress = "0xCE785ECF0B54aeDd37F2F1EC99b546B4a2259f26";
+  const contractAddress = "0x00aeCA37220dBEA2c6D2dB3243b7b1CE8fDC9423";
   const contractABI = ABI.abi;
 
   const checkIfWalletIsConnected = async () => {
@@ -110,7 +110,7 @@ const App = () => {
       let count = await wavePortalContract.getTotalWaves();
       setWaveCount(count.toNumber());
       console.log("Retrieved total wave count...", count.toNumber());
-      const waveTxn = await wavePortalContract.wave(waveMessage);
+      const waveTxn = await wavePortalContract.wave(waveMessage, { gasLimit: 300000 });
       console.log("Mining...", waveTxn.hash);
       setLoading(true);
 
