@@ -1,3 +1,7 @@
+/*
+algorithm 
+8*/
+
 /**
  *Submitted for verification at Etherscan.io on 2021-08-27
 */
@@ -27,11 +31,6 @@ interface IERC165 {
     function supportsInterface(bytes4 interfaceId) external view returns (bool);
 }
 
-
-
-
-
-
 /**
  * @dev Required interface of an ERC721 compliant contract.
  */
@@ -41,10 +40,10 @@ interface IERC721 is IERC165 {
      */
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
 
-    /**
      * @dev Emitted when `owner` enables `approved` to manage the `tokenId` token.
      */
     event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);
+    /**
 
     /**
      * @dev Emitted when `owner` enables or disables (`approved`) `operator` to manage all of its assets.
@@ -169,9 +168,6 @@ interface IERC721 is IERC165 {
     ) external;
 }
 
-
-
-
 /**
  * @dev String operations.
  */
@@ -235,9 +231,6 @@ library Strings {
     }
 }
 
-
-
-
 /*
  * @dev Provides information about the current execution context, including the
  * sender of the transaction and its data. While these are generally available
@@ -257,14 +250,6 @@ abstract contract Context {
         return msg.data;
     }
 }
-
-
-
-
-
-
-
-
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
@@ -332,10 +317,6 @@ abstract contract Ownable is Context {
     }
 }
 
-
-
-
-
 /**
  * @dev Contract module that helps prevent reentrant calls to a function.
  *
@@ -395,19 +376,6 @@ abstract contract ReentrancyGuard {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * @title ERC721 token receiver interface
  * @dev Interface for any contract that wants to support safeTransfers
@@ -431,12 +399,6 @@ interface IERC721Receiver {
     ) external returns (bytes4);
 }
 
-
-
-
-
-
-
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional metadata extension
  * @dev See https://eips.ethereum.org/EIPS/eip-721
@@ -457,10 +419,6 @@ interface IERC721Metadata is IERC721 {
      */
     function tokenURI(uint256 tokenId) external view returns (string memory);
 }
-
-
-
-
 
 /**
  * @dev Collection of functions related to the address type
@@ -668,14 +626,6 @@ library Address {
         }
     }
 }
-
-
-
-
-
-
-
-
 
 /**
  * @dev Implementation of the {IERC165} interface.
@@ -1102,12 +1052,6 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
     ) internal virtual {}
 }
 
-
-
-
-
-
-
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
  * @dev See https://eips.ethereum.org/EIPS/eip-721
@@ -1130,7 +1074,6 @@ interface IERC721Enumerable is IERC721 {
      */
     function tokenByIndex(uint256 index) external view returns (uint256);
 }
-
 
 /**
  * @dev This implements an optional extension of {ERC721} defined in the EIP that adds

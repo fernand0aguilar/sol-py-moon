@@ -3,9 +3,11 @@
   justify-content: center;
   width: 100%;
   margin-top: 64px;
+  color: white;
 }
 
 .dataContainer {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,18 +15,20 @@
 }
 
 .header {
+  color: white;
   text-align: center;
   font-size: 32px;
   font-weight: 600;
 }
 
 .bio {
+  color: white;
   text-align: center;
-  color: gray;
   margin-top: 16px;
 }
 
 .waveButton {
+  color: white;
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
