@@ -1,12 +1,10 @@
 const main = async () => {
-  const waveContractFactory = await hre.ethers.getContractFactory('WavePortal');
-  const waveContract = await waveContractFactory.deploy({
-    value: hre.ethers.utils.parseEther('0.001'),
-  });
+  const nftPortalFactory = await hre.ethers.getContractFactory('NftPortal');
+  const nftContract = await nftPortalFactory.deploy();
 
-  await waveContract.deployed();
+  await nftContract.deployed();
 
-  console.log('WavePortal address: ', waveContract.address);
+  console.log('Nft contract address: ', nftContract.address);
 };
 
 const runMain = async () => {
