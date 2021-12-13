@@ -1,0 +1,20 @@
+{
+    "name": "FArt #14 - (F)(M)",
+    "symbol": "",
+    "image": "14.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "14.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

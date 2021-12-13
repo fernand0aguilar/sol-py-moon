@@ -1,0 +1,20 @@
+{
+    "name": "FArt #5 - Arch",
+    "symbol": "",
+    "image": "5.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "5.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

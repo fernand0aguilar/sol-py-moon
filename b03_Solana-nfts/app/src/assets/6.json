@@ -1,0 +1,20 @@
+{
+    "name": "FArt #6 - ex",
+    "symbol": "",
+    "image": "6.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "6.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

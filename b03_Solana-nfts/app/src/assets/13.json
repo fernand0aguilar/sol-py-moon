@@ -1,0 +1,20 @@
+{
+    "name": "FArt #13 - home",
+    "symbol": "",
+    "image": "13.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "13.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

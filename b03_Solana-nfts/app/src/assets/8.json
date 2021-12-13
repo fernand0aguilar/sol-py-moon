@@ -1,0 +1,20 @@
+{
+    "name": "FArt #8 - Jpen",
+    "symbol": "",
+    "image": "8.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "8.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

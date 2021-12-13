@@ -1,0 +1,20 @@
+{
+    "name": "FArt #12 - Mineral",
+    "symbol": "",
+    "image": "12.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "12.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "name": "FArt #9 - M",
+    "symbol": "",
+    "image": "9.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "9.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

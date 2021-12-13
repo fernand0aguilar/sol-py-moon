@@ -1,0 +1,20 @@
+{
+    "name": "FArt #7 - perfection",
+    "symbol": "",
+    "image": "7.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "7.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

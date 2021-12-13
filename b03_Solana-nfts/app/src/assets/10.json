@@ -1,0 +1,20 @@
+{
+    "name": "FArt #10 - cozi",
+    "symbol": "",
+    "image": "10.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "10.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "GR3bDhWXBYE5KPxFBup6CKcAiCwwj6SZ5JvdeRxjPv43",
+          "share": 100
+        }
+      ]
+    }
+  }
+  
